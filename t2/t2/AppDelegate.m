@@ -1,8 +1,8 @@
 //
 //  AppDelegate.m
-//  test
+//  t2
 //
-//  Created by 何茂馨 on 15/3/16.
+//  Created by 何茂馨 on 15/3/17.
 //  Copyright (c) 2015年 何茂馨. All rights reserved.
 //
 
@@ -17,7 +17,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    UINavigationController *rootNAV=[[UINavigationController alloc]initWithRootViewController:self.window.rootViewController];
+    UINavigationController *rootNAV=[[UINavigationController alloc] init];
     self.window.rootViewController=rootNAV;
     return YES;
 }
